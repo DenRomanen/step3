@@ -1,0 +1,15 @@
+@import url("./__content-image/image-fullscreen__content-image.css");
+
+.image-fullscreen__content {
+  max-width: 80vw;
+  max-height: 80vh;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 540px) {
+  .image-fullscreen__content {
+    width: calc(100% - 60px);
+  }
+}

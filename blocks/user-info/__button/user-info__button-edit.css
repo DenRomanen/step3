@@ -1,0 +1,65 @@
+@keyframes editButton {
+  from {
+    color: #ffffff;
+    border-radius: 0;
+  }
+  to {
+    color: #000000;
+    border-radius: 3px;
+  }
+}
+@keyframes editButtonClick {
+  from {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 0;
+    box-shadow: 0 0 0 greenyellow;
+  }
+  to {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid grey;
+    border-radius: 0;
+    box-shadow: 0 0 2px 1px greenyellow;
+  }
+}
+
+.user-info__button-edit {
+  margin-top: 24px;
+
+  width: 38px;
+  height: 18px;
+
+  display: block;
+
+  color: white;
+  background-color: transparent;
+
+  font-size: 12px;
+  border: 1px solid white;
+
+  cursor: pointer;
+}
+.user-info__button-edit:hover {
+  animation-duration: 0.3s;
+  animation-name: editButton;
+  animation-fill-mode: forwards;
+  background-color: #ffffff;
+}
+.user-info__button-edit:focus {
+  background-color: blueviolet;
+  color: #000000;
+
+  border-radius: 3px;
+
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+  animation-name: editButtonClick;
+  animation-fill-mode: forwards;
+}
+@media screen and (max-width: 980px) {
+  .user-info__button-edit {
+    position: static;
+    display: inline;
+  }
+}
