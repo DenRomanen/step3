@@ -1,11 +1,11 @@
-@import url(./__content/popup__content.css);
-@import url(./__close/popup__close.css);
-@import url(./__title/popup__title.css);
-@import url(./__form/popup__form.css);
-@import url(./__input/popup__input.css);
-@import url(./__button/popup__button.css);
-@import url(./_is-opened/popup_is-opened.css);
-@import url(./__error/popup__error.css);
+@import url(./p__content/popup__content.css);
+@import url(./p__close/popup__close.css);
+@import url(./p__title/popup__title.css);
+@import url(./p__form/popup__form.css);
+@import url(./p__input/popup__input.css);
+@import url(./p__button/popup__button.css);
+@import url(./p_is-opened/popup_is-opened.css);
+@import url(./p__error/popup__error.css);
 
 .popup {
   position: fixed;
