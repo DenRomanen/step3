@@ -6,3 +6,5 @@
 - HTML5, CSS, БЭМ, JS(ES5/ES6), GIT
 
 https://denromanen.github.io/step3/
+
+для корректного отображение необходимо загрузить локальную версию.
