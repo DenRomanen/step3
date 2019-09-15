@@ -1,5 +1,5 @@
-@import url("./__content/image-fullscreen__content.css");
-@import url("./_is-opened/image-fullscreen_is-opened.css");
+@import url("./i__content/image-fullscreen__content.css");
+@import url("./i_is-opened/image-fullscreen_is-opened.css");
 
 .image-fullscreen {
   position: fixed;
